@@ -1,3 +1,13 @@
+## Scrapy-Redis-Zhihu项目介绍
+
+1. 基于scrapy-redis实现分布式爬虫，爬取知乎所有问题及对应的回答；
+2. 集成selenium模拟登录知乎，并处理英文验证码及倒立文字验证码的识别；
+3. 通过Twisted将MySQL 入库操作变成异步化执行；
+4. 集成bloomfilter对URL进行去重；
+5. 随机生成User-Agent、IP代理应该反爬；
+6. 通过scrapy信号机制，统计爬取的URL总数；
+7. 通过Scrapy数据收集机制，获取爬取失败的URL，并写入到json文件中，方便后期进行分析。
+
 ## Scrapy-Redis-Zhihu项目结构介绍
 
 captcha: 存放知乎登录页面英文验证码或倒立文字验证码图片
