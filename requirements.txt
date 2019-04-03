@@ -1,0 +1,16 @@
+BitVector==3.4.8
+fake-useragent==0.1.11
+h5py==2.9.0
+Keras==2.0.1
+mmh3==2.5.1
+mouse==0.7.0
+numpy==1.16.2+mkl
+Pillow==5.4.1
+PyMySQL==0.8.0
+redis==2.10.6
+requests==2.18.4
+scikit-learn==0.20.3
+scipy==1.2.1
+Scrapy==1.6.0
+selenium==3.141.0
+tensorflow==1.13.1
